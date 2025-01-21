@@ -1,5 +1,12 @@
+import '../styles/App.css';
+import Layout from './Layout';
+import Home from './pages/Home';
 function App() {
-  return <p>fff</p>;
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  );
 }
 
 export default App;
