@@ -31,7 +31,6 @@ function SignupForm() {
       await signup(email, password, username);
       navigate('/');
     } catch (error) {
-      console.log('error');
       setLoading(false);
       setError('Failed to create an account');
     }
